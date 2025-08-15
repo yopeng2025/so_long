@@ -6,7 +6,7 @@
 /*   By: yopeng <yopeng@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 18:01:59 by yopeng            #+#    #+#             */
-/*   Updated: 2025/08/11 14:54:16 by yopeng           ###   ########.fr       */
+/*   Updated: 2025/08/13 18:40:55 by yopeng           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,8 @@ char	**parse_map(char *path, t_game *g)
 	if (!map || g->height <= 0 || !map[0])
 		error_exit(g, "Empty map");
 	g->width = ft_strlen(map[0]);
-	check_map_shape(map, g);
 	g->map = map;
+	check_map_shape(map, g);
 	count_elements(g);
 	check_walls(map, g);
 	verify_path(g);

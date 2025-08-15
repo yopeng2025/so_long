@@ -9,7 +9,7 @@ MLX       := $(MLX_DIR)/libmlx_Linux.a
 LIBFT_DIR := Libft
 LIBFT     := $(LIBFT_DIR)/libft.a
 
-CFLAGS    ?= -Wall -Wextra -Werror
+CFLAGS    ?= -Wall -Wextra -Werror -g3
 INC       := -Isrc -I$(MLX_DIR) -I$(LIBFT_DIR)
 LDFLAGS   := -L$(MLX_DIR) -lmlx_Linux -L$(LIBFT_DIR) -lft -lXext -lX11 -lm -lz
 
