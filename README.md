@@ -19,6 +19,14 @@ Animations for player/enemy (bonus).
 
 Move counter displayed on screen.
 
+## Usage💻
+```
+make
+```
+```
+./so_long <mapfile>
+```
+
 ## Key Action🎮
 
 W / ↑	Move up
