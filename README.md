@@ -3,7 +3,7 @@
 A simple 2D game built with MiniLibX as part of the 42 School curriculum.
 The player navigates a map, collects all collectibles, and reaches the exit while avoiding enemies.
 
-📌 Features
+## Features📌
 
 2D graphics rendered using MiniLibX.
 
@@ -19,9 +19,7 @@ Animations for player/enemy (bonus).
 
 Move counter displayed on screen.
 
-🎮 Controls
-
-## Key Action
+## Key Action🎮
 
 W / ↑	Move up
 
