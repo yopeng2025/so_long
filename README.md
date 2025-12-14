@@ -20,12 +20,11 @@ Animations for player/enemy (bonus).
 Move counter displayed on screen.
 
 ## Usage💻
-```
-make
-```
-```
-./so_long <mapfile>
-```
+
+`make`
+
+`./so_long map1.ber`
+
 
 ## Key Action🎮
 
